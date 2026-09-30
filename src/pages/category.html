@@ -1,0 +1,400 @@
+<!--
+title: رنگ مو و مراقبت از مو | فروشگاه آلپ آذربایجان
+desc: خرید رنگ مو، اکسیدان، پودر دکلره، شامپو و مراقبت از مو از برندهای حرفه‌ای سالن؛ با فیلتر بر اساس برند، خانواده رنگ، نوع محصول و قیمت.
+page: category
+-->
+{{>head}}
+{{>header}}
+
+<main id="main" class="pb-20 lg:pb-0">
+
+  <div class="container-page pt-7 lg:pt-10">
+    <nav aria-label="مسیر صفحه" class="text-[0.8125rem] muted flex items-center gap-2 flex-wrap">
+      <a href="index.html" class="hover:text-ink transition-colors">خانه</a>
+      <span aria-hidden="true">/</span>
+      <a href="category.html" class="hover:text-ink transition-colors">رنگ مو</a>
+      <span aria-hidden="true">/</span>
+      <span class="text-ink" aria-current="page">همه محصولات</span>
+    </nav>
+
+    <header class="mt-6 lg:mt-8 max-w-[760px]">
+      <p class="kicker"><span class="latin-caps">hair colour &amp; care</span> <span>۰۱</span></p>
+      <h1 class="display mt-4">رنگ مو و مراقبت از مو</h1>
+      <p class="lede mt-4">رنگ‌های کرم حرفه‌ای، اکسیدان، دکلره و تونر از پنج برند سالنی اصل — همراه با شامپو و ماسک بعد از رنگ. اگر شماره رنگ را نمی‌دانی، از رنگ‌یاب آلپ آذربایجان شروع کن.</p>
+      <div class="flex flex-wrap gap-3 mt-5">
+        <a class="chip" href="index.html#finder">رنگ‌یاب آلپ آذربایجان</a>
+        <a class="chip" href="#guide">راهنمای شماره رنگ</a>
+        <a class="chip" href="product.html">پرفروش‌ترین رنگ ماه</a>
+      </div>
+    </header>
+  </div>
+
+  <div class="container-page section-tight">
+    <div id="plp">
+      <div class="grid lg:grid-cols-[250px_minmax(0,1fr)] gap-8 lg:gap-12 items-start">
+
+        <!-- SIDEBAR FILTERS -->
+        <aside id="filtersHome" class="hidden lg:block lg:sticky lg:top-[132px]">
+          <form id="filters" aria-label="فیلتر محصولات">
+            <div class="hidden lg:flex items-center justify-between pb-3 border-b border-line">
+              <p class="text-[0.9375rem] font-semibold">فیلترها</p>
+            </div>
+
+            <details class="filter-group" open>
+              <summary>برند <span class="filter-count text-[0.8125rem] muted font-normal" data-for="brand"></span></summary>
+              <div class="pt-3">
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="loreal" data-label="لورئال پروفیسنال"> لورئال پروفیسنال</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="wella" data-label="ولاتینگ"> ولاتینگ</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="schwarzkopf" data-label="شوارتزکوف"> شوارتزکوف</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="keune" data-label="کیون"> کیون</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="framesi" data-label="فرمسی"> فرمسی</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="davines" data-label="داوینز"> داوینز</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="kerastase" data-label="کراتاست"> کراتاست</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="alfaparf" data-label="آلفاپارف"> آلفاپارف</label>
+                <label class="check-row"><input type="checkbox" data-fkey="brand" data-fval="olaplex" data-label="اولپلکس"> اولپلکس</label>
+              </div>
+            </details>
+
+            <details class="filter-group" open>
+              <summary>خانواده رنگ <span class="filter-count text-[0.8125rem] muted font-normal" data-for="family"></span></summary>
+              <div class="pt-3">
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="natural" data-label="نچرال"> نچرال — Natural</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="ash" data-label="آش"> آش و دودی — Ash</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="beige" data-label="بژ"> بژ — Beige</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="gold" data-label="گلد"> گلد — Golden</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="copper" data-label="مسی"> مسی — Copper</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="red" data-label="قرمز"> قرمز و ماهاگونی</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="violet" data-label="بنفش"> بنفش و شرابی</label>
+                <label class="check-row"><input type="checkbox" data-fkey="family" data-fval="chocolate" data-label="شکلاتی"> شکلاتی</label>
+              </div>
+            </details>
+
+            <details class="filter-group">
+              <summary>نوع محصول <span class="filter-count text-[0.8125rem] muted font-normal" data-for="type"></span></summary>
+              <div class="pt-3">
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="color" data-label="رنگ مو"> رنگ موی کرم</label>
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="oxidizer" data-label="اکسیدان"> اکسیدان</label>
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="bleach" data-label="پودر دکلره"> پودر دکلره</label>
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="toner" data-label="تونر"> تونر و رفع زردی</label>
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="shampoo" data-label="شامپو"> شامپو</label>
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="mask" data-label="ماسک مو"> ماسک مو</label>
+                <label class="check-row"><input type="checkbox" data-fkey="type" data-fval="serum" data-label="سرم مو"> سرم و روغن مو</label>
+              </div>
+            </details>
+
+            <details class="filter-group">
+              <summary>محدوده قیمت <span class="filter-count text-[0.8125rem] muted font-normal" data-for="range"></span></summary>
+              <div class="pt-3">
+                <label class="check-row"><input type="checkbox" data-fkey="range" data-fval="low" data-label="زیر ۳۰۰ هزار تومان"> زیر ۳۰۰٬۰۰۰ تومان</label>
+                <label class="check-row"><input type="checkbox" data-fkey="range" data-fval="mid" data-label="۳۰۰ تا ۶۰۰ هزار تومان"> ۳۰۰٬۰۰۰ تا ۶۰۰٬۰۰۰ تومان</label>
+                <label class="check-row"><input type="checkbox" data-fkey="range" data-fval="high" data-label="بالای ۶۰۰ هزار تومان"> بالای ۶۰۰٬۰۰۰ تومان</label>
+              </div>
+            </details>
+
+            <details class="filter-group">
+              <summary>وضعیت موجودی <span class="filter-count text-[0.8125rem] muted font-normal" data-for="stock"></span></summary>
+              <div class="pt-3">
+                <label class="check-row"><input type="checkbox" data-fkey="stock" data-fval="in" data-label="فقط موجود"> فقط موجود در انبار</label>
+              </div>
+            </details>
+          </form>
+        </aside>
+
+        <!-- RESULTS -->
+        <div class="min-w-0">
+          <div class="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-4">
+            <div class="flex items-center gap-3 flex-wrap">
+              <button class="btn btn-outline btn-sm lg:hidden" id="filterOpenBtn" type="button">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h9M17.5 7H20M4 17h2.5M11 17h9"/><circle cx="15" cy="7" r="2.2"/><circle cx="8.5" cy="17" r="2.2"/></svg>
+                فیلترها
+              </button>
+              <p id="resultCount" class="text-[0.875rem] muted" aria-live="polite">۱۴ محصول</p>
+              <button class="text-[0.8125rem] text-burgundy underline-offset-4 hover:underline" type="button" id="clearFilters" hidden>پاک کردن فیلترها</button>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <label class="sr-only" for="sortSelect">مرتب‌سازی محصولات</label>
+              <select class="field !w-auto !min-h-[44px] text-[0.875rem]" id="sortSelect">
+                <option value="best">محبوب‌ترین</option>
+                <option value="new">جدیدترین</option>
+                <option value="cheap">ارزان‌ترین</option>
+                <option value="expensive">گران‌ترین</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="activeFilters" class="active-filters mt-4" hidden></div>
+
+          <div class="grid-products mt-7" id="productGrid">
+            <article class="product-card" data-plp data-brand="loreal" data-family="ash" data-type="color" data-range="mid" data-stock="in" data-price="420000" data-date="14050110" data-rate="4.8">
+              <div class="card-media">
+                <span class="card-flag">پرفروش</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن رنگ موی ماجیرل ۶.۱ به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/color-61.svg" alt="رنگ موی لورئال ماجیرل شماره ۶.۱" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="رنگ موی ماجیرل ۶.۱">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">L'Oréal Professionnel</p>
+                <h3 class="card-title"><a href="product.html">رنگ موی ماجیرل — ۶.۱ بلوند دودی تیره</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#7b6a59" aria-hidden="true"></span> تناژ آش · بدون آمونیاک</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۸ <span>(۱۲۴ نظر)</span></p>
+                <p class="price-row"><span class="price">۴۲۰٬۰۰۰ تومان</span><span class="price-old">۴۸۰٬۰۰۰</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="wella" data-family="natural" data-type="color" data-range="mid" data-stock="in" data-price="450000" data-date="14041215" data-rate="4.7">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن رنگ موی کولستون ۷/۰ به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/color-70.svg" alt="رنگ موی ولاتینگ کولستون شماره ۷/۰" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="رنگ موی کولستون ۷/۰">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Wella Koleston Perfect</p>
+                <h3 class="card-title"><a href="product.html">رنگ موی کولستون پرفکت — ۷/۰ بلوند طبیعی متوسط</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#a97f4e" aria-hidden="true"></span> تناژ نچرال · خنثی</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۷ <span>(۹۸ نظر)</span></p>
+                <p class="price-row"><span class="price">۴۵۰٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="schwarzkopf" data-family="copper red" data-type="color" data-range="mid" data-stock="in" data-price="395000" data-date="14050220" data-rate="4.9">
+              <div class="card-media">
+                <span class="card-flag">۲۰٪ تخفیف</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن رنگ موی ایگورا به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/color-566.svg" alt="رنگ موی شوارتزکوف ایگورا شماره ۵-۶۶" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="رنگ موی ایگورا ۵-۶۶">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Schwarzkopf Igora Royal</p>
+                <h3 class="card-title"><a href="product.html">رنگ موی ایگورا رویال — ۵-۶۶ قرمز مسی عمیق</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#a0522d" aria-hidden="true"></span> تناژ مسی · گرم</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۹ <span>(۷۶ نظر)</span></p>
+                <p class="price-row"><span class="price">۳۹۵٬۰۰۰ تومان</span><span class="price-old">۴۹۵٬۰۰۰</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="keune" data-family="ash" data-type="color" data-range="mid" data-stock="in" data-price="410000" data-date="14050305" data-rate="4.7">
+              <div class="card-media">
+                <span class="card-flag">جدید</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن رنگ موی کیون تینتا به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/color-81.svg" alt="رنگ موی کیون تینتا شماره ۸.۱" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="رنگ موی کیون ۸.۱">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Keune Tinta</p>
+                <h3 class="card-title"><a href="product.html">رنگ موی تینتا — ۸.۱ بلوند خاکستری روشن</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#b3a184" aria-hidden="true"></span> تناژ آش · خنک</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۷ <span>(۳۱ نظر)</span></p>
+                <p class="price-row"><span class="price">۴۱۰٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="framesi" data-family="chocolate natural" data-type="color" data-range="mid" data-stock="in" data-price="380000" data-date="14041120" data-rate="4.7">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن رنگ موی فرمسی به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/color-40.svg" alt="رنگ موی فرمسی شماره ۴.۰" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="رنگ موی فرمسی ۴.۰">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Framesi Color Mondial</p>
+                <h3 class="card-title"><a href="product.html">رنگ موی کالر موندیال — ۴.۰ قهوه‌ای طبیعی تیره</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#4e3527" aria-hidden="true"></span> تناژ شکلاتی · بدون آمونیاک</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۷ <span>(۵۴ نظر)</span></p>
+                <p class="price-row"><span class="price">۳۸۰٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="wella" data-family="violet beige" data-type="toner" data-range="mid" data-stock="in" data-price="365000" data-date="14050312" data-rate="4.6">
+              <div class="card-media">
+                <span class="card-flag">جدید</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن تونر کولستون به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/toner-1.svg" alt="تونر کولستون شماره ۹/۱۶" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="تونر ۹/۱۶">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Wella Color Touch</p>
+                <h3 class="card-title"><a href="product.html">تونر بدون آمونیاک — ۹/۱۶ بنفش ملایم</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#8f7790" aria-hidden="true"></span> رفع زردی · موهای دکلره‌شده</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۶ <span>(۱۹ نظر)</span></p>
+                <p class="price-row"><span class="price">۳۶۵٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="wella" data-type="oxidizer" data-range="low" data-stock="in" data-price="145000" data-date="14041001" data-rate="4.6">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن اکسیدان کولستون به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/oxid-20.svg" alt="اکسیدان بیست ولوم ولاتینگ" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="اکسیدان ۲۰ ولوم">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Wella Welloxon</p>
+                <h3 class="card-title"><a href="product.html">اکسیدان کولستون — ۲۰ ولوم، ۱۰۰۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#f0e9df" aria-hidden="true"></span> مناسب پایه ۵ تا ۷</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۶ <span>(۲۱۱ نظر)</span></p>
+                <p class="price-row"><span class="price">۱۴۵٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="schwarzkopf" data-type="oxidizer" data-range="low" data-stock="in" data-price="165000" data-date="14050125" data-rate="4.6">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن اکسیدان سی ولوم به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/oxid-30.svg" alt="اکسیدان سی ولوم شوارتزکوف" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="اکسیدان ۳۰ ولوم">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Schwarzkopf Combo</p>
+                <h3 class="card-title"><a href="product.html">اکسیدان سی ولوم — ۱۰۰۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#efe7db" aria-hidden="true"></span> مناسب دکلره و روشن‌کردن</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۶ <span>(۶۲ نظر)</span></p>
+                <p class="price-row"><span class="price">۱۶۵٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="schwarzkopf" data-type="oxidizer" data-range="low" data-stock="out" data-price="135000" data-date="14040901" data-rate="4.5">
+              <div class="card-media">
+                <span class="card-flag">ناموجود</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن اکسیدان ده ولوم به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/oxid-10.svg" alt="اکسیدان ده ولوم شوارتزکوف" width="420" height="520" loading="lazy" style="opacity:.55">
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Schwarzkopf Combo</p>
+                <h3 class="card-title"><a href="product.html">اکسیدان ده ولوم — ۱۰۰۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted"><span class="swatch swatch-plain inline-block w-4 h-4 align-middle" style="--sw:#f4efe6" aria-hidden="true"></span> ملایم · مناسب تثبیت رنگ</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۵ <span>(۴۱ نظر)</span></p>
+                <p class="price-row"><span class="price text-muted">۱۳۵٬۰۰۰ تومان</span><span class="text-[0.8125rem] text-burgundy">موجود شد اطلاع بده</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="schwarzkopf" data-type="bleach" data-range="mid" data-stock="in" data-price="495000" data-date="14050118" data-rate="4.8">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن پودر دکلره به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/bleach-1.svg" alt="پودر دکلره بلاند می" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="پودر دکلره بلاند می">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">BlondMe</p>
+                <h3 class="card-title"><a href="product.html">پودر دکلره تقویت‌شده با باند — ۵۰۰ گرم</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted">تا ۷ پلیت · بدون غبار</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۸ <span>(۴۵ نظر)</span></p>
+                <p class="price-row"><span class="price">۴۹۵٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="davines" data-type="shampoo" data-range="low" data-stock="in" data-price="285000" data-date="14040925" data-rate="4.8">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن شامپو داوینز به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/shampoo-1.svg" alt="شامپو ملون کالر داوینز" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="شامپو ملون کالر">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Davines Mellow Colour</p>
+                <h3 class="card-title"><a href="product.html">شامپو مراقبت رنگ — بدون سولفات، ۲۵۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted">برای موهای رنگ‌شده و کراتین شده</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۸ <span>(۱۴۳ نظر)</span></p>
+                <p class="price-row"><span class="price">۲۸۵٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="kerastase" data-type="mask" data-range="high" data-stock="in" data-price="690000" data-date="14050130" data-rate="4.9">
+              <div class="card-media">
+                <span class="card-flag">پرفروش</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن ماسک کراتاست به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/mask-1.svg" alt="ماسک موی کراتاست نوتریتیو" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="ماسک نوتریتیو">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Kérastase Nutritive</p>
+                <h3 class="card-title"><a href="product.html">ماسک تغذیه‌کننده عمیق — ۲۰۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted">موهای خشک و رنگ‌شده</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۹ <span>(۸۸ نظر)</span></p>
+                <p class="price-row"><span class="price">۶۹۰٬۰۰۰ تومان</span><span class="price-old">۷۸۰٬۰۰۰</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="alfaparf" data-type="mask" data-range="mid" data-stock="in" data-price="520000" data-date="14050308" data-rate="4.7">
+              <div class="card-media">
+                <span class="card-flag">جدید</span>
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن ماسک آلفاپارف به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/mask-2.svg" alt="ماسک آلفاپارف سمی دی لینو" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="ماسک آلفاپارف">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Alfaparf Semi di Lino</p>
+                <h3 class="card-title"><a href="product.html">ماسک ترمیم‌کننده مو — ۲۵۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted">ترمیم بعد از دکلره و مش</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۷ <span>(۲۷ نظر)</span></p>
+                <p class="price-row"><span class="price">۵۲۰٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+
+            <article class="product-card" data-plp data-brand="olaplex" data-type="serum" data-range="mid" data-stock="in" data-price="590000" data-date="14050210" data-rate="4.8">
+              <div class="card-media">
+                <button class="wish-btn" type="button" aria-pressed="false" aria-label="افزودن سرم اولپلکس به علاقه‌مندی‌ها"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20.2S4.7 15.7 4.7 10.6A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7.3 2c0 5.1-7.3 9.6-7.3 9.6Z"/></svg></button>
+                <img class="render" src="assets/img/products/serum-1.svg" alt="سرم موی اولپلکس نامبر ۷" width="420" height="520" loading="lazy">
+                <button class="quick-add" type="button" data-product="سرم اولپلکس ۷">افزودن به سبد</button>
+              </div>
+              <div class="card-body">
+                <p class="card-brand">Olaplex No.7</p>
+                <h3 class="card-title"><a href="product.html">روغن تقویت‌کننده پیوند مو — ۳۰ میل</a></h3>
+                <p class="flex items-center gap-2 text-[0.8125rem] muted">درخشش و ترمیم پس از رنگ</p>
+                <p class="rating"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5 6.9 19.3l1-5.7-4.1-4 5.7-.8Z"/></svg> ۴٫۸ <span>(۱۶۷ نظر)</span></p>
+                <p class="price-row"><span class="price">۵۹۰٬۰۰۰ تومان</span></p>
+              </div>
+            </article>
+          </div>
+
+          <div class="empty-state mt-8" id="plpEmpty" hidden>
+            <p class="sub-title">محصولی با این فیلترها پیدا نشد</p>
+            <p class="lede mt-2 mx-auto">یکی از فیلترها را بردارید — مثلاً فقط برند را نگه دارید یا محدوده قیمت را بازتر کنید.</p>
+            <button class="btn btn-outline mt-5" type="button" onclick="document.getElementById('clearFilters').click()">پاک کردن همه فیلترها</button>
+          </div>
+
+          <div class="mt-10 p-6 lg:p-7 bg-cream rounded-[3px] flex flex-wrap items-center justify-between gap-4" id="guide">
+            <div class="max-w-[52ch]">
+              <p class="text-[0.9375rem] font-semibold">رنگ مناسب را پیدا نکردی؟</p>
+              <p class="text-[0.875rem] muted mt-1">با رنگ‌یاب آلپ آذربایجان، بر اساس خانواده رنگ، شماره و پایه موی فعلی‌ات نتیجه بگیر — یا با کارشناس ما تلفنی مشورت کن.</p>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a class="btn btn-ink btn-sm" href="index.html#finder">ورود به رنگ‌یاب</a>
+              <a class="btn btn-outline btn-sm" href="tel:+982188776655" dir="ltr">021 8877 6655</a>
+            </div>
+          </div>
+
+          <nav class="mt-10 flex items-center justify-center gap-2" aria-label="صفحه‌بندی نتایج">
+            <a href="#" class="icon-btn border border-line" aria-label="صفحه قبل">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>
+            </a>
+            <span class="icon-btn bg-ink text-paper text-[0.875rem]" aria-current="page">۱</span>
+            <a href="#" class="icon-btn border border-line text-[0.875rem]">۲</a>
+            <a href="#" class="icon-btn border border-line text-[0.875rem]">۳</a>
+            <span class="px-1 text-[0.875rem] muted" aria-hidden="true">…</span>
+            <a href="#" class="icon-btn border border-line text-[0.875rem]">۸</a>
+            <a href="#" class="icon-btn border border-line" aria-label="صفحه بعد">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M19 12H5m0 0 6-6m-6 6 6 6"/></svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- MOBILE FILTER SHEET (lives inside #plp so its inputs stay registered) -->
+      <dialog class="sheet" id="filterSheet" aria-labelledby="filterSheetTitle">
+        <div class="sheet-handle" aria-hidden="true"></div>
+        <div class="sheet-head">
+          <p class="text-[1.0625rem] font-semibold" id="filterSheetTitle">فیلترها</p>
+          <button class="icon-btn" type="button" data-dialog-close aria-label="بستن فیلترها">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+          </button>
+        </div>
+        <div class="sheet-body" id="filterSheetSlot"></div>
+        <div class="sheet-foot">
+          <button class="btn btn-primary btn-block" type="button" data-dialog-close>مشاهده نتایج</button>
+        </div>
+      </dialog>
+    </div>
+  </div>
+
+</main>
+
+{{>footer}}
+{{>overlays}}
+{{>scripts}}

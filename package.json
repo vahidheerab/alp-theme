@@ -1,0 +1,22 @@
+{
+  "name": "alp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i src/styles.css -o assets/css/app.css --minify",
+    "build:pages": "node tools/build.mjs",
+    "build:products": "node tools/gen-products.mjs",
+    "build": "npm run build:pages && npm run build:css",
+    "watch": "tailwindcss -i src/styles.css -o assets/css/app.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

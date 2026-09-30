@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" width="420" height="520" role="img" aria-label="KEUNE Tinta · 8.1">
+
+  <defs>
+    <linearGradient id="cylcolor81" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.20"/>
+      <stop offset="0.10" stop-color="#000" stop-opacity="0.06"/>
+      <stop offset="0.30" stop-color="#fff" stop-opacity="0.34"/>
+      <stop offset="0.46" stop-color="#fff" stop-opacity="0.10"/>
+      <stop offset="0.70" stop-color="#000" stop-opacity="0.03"/>
+      <stop offset="0.88" stop-color="#000" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.26"/>
+    </linearGradient>
+    <linearGradient id="capcolor81" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.34"/>
+      <stop offset="0.32" stop-color="#fff" stop-opacity="0.24"/>
+      <stop offset="0.75" stop-color="#000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="bandcolor81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d7386" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#7d7386" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="shcolor81" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a2c25" stop-opacity="0.34"/>
+      <stop offset="0.6" stop-color="#3a2c25" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#3a2c25" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glcolor81" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+    <ellipse cx="210" cy="452" rx="118" ry="20" fill="url(#shcolor81)"/>
+    <path d="M120 96 Q120 70 142 70 L278 70 Q300 70 300 96 L300 346 L120 346 Z" fill="#f2ece4"/>
+    <path d="M120 96 Q120 70 142 70 L278 70 Q300 70 300 96 L300 346 L120 346 Z" fill="url(#cylcolor81)"/>
+    <rect x="114" y="56" width="192" height="20" rx="3" fill="#f2ece4" filter="none"/>
+    <rect x="114" y="56" width="192" height="20" rx="3" fill="url(#cylcolor81)"/>
+    <g stroke="#000" stroke-opacity="0.10">
+      <line x1="128" y1="58" x2="128" y2="74"/>
+      <line x1="150" y1="58" x2="150" y2="74"/>
+      <line x1="172" y1="58" x2="172" y2="74"/>
+      <line x1="194" y1="58" x2="194" y2="74"/>
+      <line x1="216" y1="58" x2="216" y2="74"/>
+      <line x1="238" y1="58" x2="238" y2="74"/>
+      <line x1="260" y1="58" x2="260" y2="74"/>
+      <line x1="282" y1="58" x2="282" y2="74"/>
+    </g>
+    
+  <g>
+    <rect x="136" y="144" width="148" height="172" fill="#fbf7f1" rx="2"/>
+    <rect x="136" y="144" width="148" height="172" fill="none" stroke="#000" stroke-opacity="0.08"/>
+    <rect x="136" y="144" width="148" height="3" fill="url(#bandcolor81)"/>
+    <text x="210" y="202.48000000000002" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="2.4" fill="#241c19">KEUNE</text>
+    <text x="210" y="238.60000000000002" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="11.5" letter-spacing="0.6" fill="#7a6c62">Tinta · 8.1</text>
+    <text x="210" y="288.48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1" fill="#5e5461">8.1</text>
+  </g>
+    <rect x="120" y="346" width="180" height="54" rx="6" fill="#2b2422"/>
+    <rect x="120" y="346" width="180" height="54" rx="6" fill="url(#capcolor81)"/>
+    <rect x="134" y="354" width="152" height="4" rx="2" fill="#fff" opacity="0.12"/>
+    <rect x="130" y="104" width="10" height="224" rx="5" fill="url(#glcolor81)" opacity="0.7"/>
+</svg>
